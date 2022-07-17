@@ -13,5 +13,5 @@ with tf.compat.v1.Session() as sess:
     # 把計算圖放到session裡 並運行得到結果
     #print(sess.run(c))
     print(sess.run(c))
-    
+    sess.close()
     
